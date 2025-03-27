@@ -18,6 +18,7 @@
   
   <h2>Installation</h2>
   <pre>
+    
     # Clone the repository
     git clone https://github.com/yourusername/cpp-contacts-manager.git
     
