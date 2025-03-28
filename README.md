@@ -1,22 +1,11 @@
 <h1>CONTACTS SOFTWARE | C++ PROGRAM</h1>
 <p>A simple back-end program that allows users to:</p>
 <ul>
-  <li>Add new contacts with names, phone numbers, and email addresses</li>
-  <li>Search for contacts by name or other information</li>
-  <li>Edit existing contact information</li>
+  <li>Add new contacts with names and phone numbers</li>
+  <li>Add contacts as friends </li>
   <li>Delete unwanted contacts</li>
+  <li>View a complete list of all friends</li>
   <li>View a complete list of all saved contacts</li>
-</ul>
-
-<h2>Features</h2>
-<ul>
-  <li><strong>Add Contacts</strong> - Store names, phone numbers, email addresses, and additional notes</li>
-  <li><strong>View Contacts</strong> - Browse through your complete contact list</li>
-  <li><strong>Search</strong> - Quickly find contacts by name, number, or other details</li>
-  <li><strong>Edit Contacts</strong> - Update information for existing contacts</li>
-  <li><strong>Delete Contacts</strong> - Remove contacts you no longer need</li>
-  <li><strong>Persistent Storage</strong> - Your contacts are saved automatically</li>
-  <li><strong>Categories</strong> - Organize contacts into groups (family, friends, work, etc.)</li>
 </ul>
 
 <h2>Requirements</h2>
@@ -38,21 +27,21 @@ git clone https://github.com/VincentAgra/cpp-contacts-manager.git](https://githu
 cd ContactsSoftware-cpp-program
 
 # Compile the source code
-g++ -o contacts main.cpp Contact.cpp ContactUtility.cpp -std=c++17
+g++ -o ContactsSoftware main.cpp Contact.cpp ContactUtility.cpp -std=c++17
 
 # Run the program
-./ConsoleSoftware
+./ContactsSoftware
 </pre>
 
 <h2>Usage</h2>
 <p>After launching the program, you'll be presented with a menu of options:</p>
 <ol>
-  <li>View All Contacts</li>
-  <li>Add New Contact</li>
-  <li>Search Contacts</li>
-  <li>Edit Contact</li>
+  <li>Show Contacts</li>
+  <li>Add Contact</li>
+  <li>Add Friend</li>
+  <li>Print Friends</li>
   <li>Delete Contact</li>
-  <li>Exit</li>
+  <li>Quit</li>
 </ol>
 
 <p>Follow the on-screen prompts to navigate through the application and manage your contacts.</p>
